@@ -83,6 +83,11 @@
     diff "^5.0.0"
     nearley "^2.20.1"
 
+"@assemblyscript/loader@^0.20.19":
+  version "0.20.19"
+  resolved "https://registry.yarnpkg.com/@assemblyscript/loader/download/@assemblyscript/loader-0.20.19.tgz#99d0a34824c4053b9b8ff60473ed15c636289859"
+  integrity sha512-NWB85L5zgGOkc/XBlZfyBNDEu0k8t/WFcpyo7TXA4ICpG+CYbSjbzV91ynn6uWc9DIgvaFsK7kC64jP7eGGwcw==
+
 "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.14.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
@@ -827,14 +832,13 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
-assemblyscript@^0.19.22:
-  version "0.19.22"
-  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.19.22.tgz#ef7eb8939864bd1b7603a9772e8f32e1fcfb8975"
-  integrity sha512-+Rclbx0+BI3qAe9fjc8XGbSUDaayTtjINnD19I4MmfpT2R43c9YTQERP36676shkPxb1fisDFZeSTL65Da8Q2g==
+assemblyscript@^0.20.19:
+  version "0.20.19"
+  resolved "https://registry.yarnpkg.com/assemblyscript/download/assemblyscript-0.20.19.tgz#7c29f506a31d526f7d7e3b22908cc8774b378681"
+  integrity sha512-IJN2CaAwCdRgTSZz3GiuYyXtXIjETBrlzky9ww9jFlEgH8i0pNFt6MAS3viogkofem+rcY6Fhr/clk+b6LWLBw==
   dependencies:
-    binaryen "102.0.0-nightly.20211028"
+    binaryen "109.0.0-nightly.20220813"
     long "^5.2.0"
-    source-map-support "^0.5.20"
 
 astral-regex@^2.0.0:
   version "2.0.0"
@@ -912,10 +916,10 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
-binaryen@102.0.0-nightly.20211028:
-  version "102.0.0-nightly.20211028"
-  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-102.0.0-nightly.20211028.tgz#8f1efb0920afd34509e342e37f84313ec936afb2"
-  integrity sha512-GCJBVB5exbxzzvyt8MGDv/MeUjs6gkXDvf4xOIItRBptYl0Tz5sm1o/uG95YK0L0VeG5ajDu3hRtkBP2kzqC5w==
+binaryen@109.0.0-nightly.20220813:
+  version "109.0.0-nightly.20220813"
+  resolved "https://registry.yarnpkg.com/binaryen/download/binaryen-109.0.0-nightly.20220813.tgz#6928acf8820fc1270d41dbb157c0c2337a067d20"
+  integrity sha512-u85Ti3LiGRrV0HqdNDRknalkx7QiCSL0jNsEsT522nnZacWxUaSJEILphxc2OnzmHVtdiWBE3c4lEzlU3ZEyDw==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -2542,14 +2546,6 @@ source-map-support@^0.5.17, source-map-support@^0.5.6:
   version "0.5.19"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
-  dependencies:
-    buffer-from "^1.0.0"
-    source-map "^0.6.0"
-
-source-map-support@^0.5.20:
-  version "0.5.21"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
-  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
