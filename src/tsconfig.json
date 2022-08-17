@@ -17,7 +17,8 @@
     "experimentalDecorators": true,
     "declaration": true,
     "strict": true,
-    "lib": ["esnext","esnext.string"]
+    "lib": ["esnext","esnext.string"],
+    "skipLibCheck": true
   },
   "include": ["./**/*"]
 }

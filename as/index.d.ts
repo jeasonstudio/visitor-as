@@ -1,12 +1,12 @@
-export * from "assemblyscript";
-export * from "assemblyscript/cli/transform";
+export * from "assemblyscript/dist/assemblyscript";
+export * from "assemblyscript/dist/transform";
 /**
  * @fileoverview Definitions for asc.
  * @license Apache-2.0
  */
 
-import { OptionDescription } from "assemblyscript/cli/util/options";
-import { Source, Range, DiagnosticMessage } from "assemblyscript";
+import { OptionDescription } from "assemblyscript/util/options";
+import { Source, Range, DiagnosticMessage } from "assemblyscript/dist/assemblyscript";
 
 export { OptionDescription };
 

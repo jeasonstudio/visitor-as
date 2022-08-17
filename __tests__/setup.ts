@@ -1,5 +1,5 @@
 import { MemoryStream, compileString } from "../as";
-import * as loader from "assemblyscript/lib/loader/umd";
+import * as loader from '@assemblyscript/loader';
 
 const CompileStringResult = (false as true) && compileString("");
 type CompileStringResultType = typeof CompileStringResult;
