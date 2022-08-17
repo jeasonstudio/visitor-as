@@ -1,8 +1,8 @@
 const assemblyscriptPath = require.resolve(
-  'assemblyscript/dist/assemblyscript'
+  "assemblyscript/dist/assemblyscript"
 );
-const ascPath = require.resolve('assemblyscript/dist/asc');
-const transformerPath = require.resolve('assemblyscript/dist/transform');
+const ascPath = require.resolve("assemblyscript/dist/asc");
+const transformerPath = require.resolve("assemblyscript/dist/transform");
 
 const assemblyscript = require(assemblyscriptPath);
 
